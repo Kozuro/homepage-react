@@ -1,0 +1,19 @@
+.footer {
+    background-color: #d1d2d3d2;
+    width: 700px;
+    box-shadow: 0px 0px 17px 2px #182b44;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    text-shadow: 1px 2px 5px #6b6a6a;
+    text-align: center;
+}
+
+.footer__important {
+    color: green;
+}
+
+.footer__important:hover {
+    color: hsl(120, 100%, 20%);    
+    transition: 0.2s;    
+}
