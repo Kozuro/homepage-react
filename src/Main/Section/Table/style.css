@@ -1,0 +1,32 @@
+.table {
+    max-width: 650px;
+    margin: auto;
+    overflow-x: auto;
+    text-shadow: 1px 2px 5px #6b6a6a;
+    box-shadow: 0px 0px 17px 2px #182b44;
+    border: black 1px solid;
+    border-collapse: collapse;
+}
+
+.table__cell {
+    padding: 20px;
+    border: black 1px solid;
+}
+
+.table__cell:hover {
+    color: white;
+    background-color: #333333;
+    transition: 0.3s;
+}
+
+.table__cell--header {
+    background-color: #bdbdbd;
+    padding: 20px;
+    border: black 1px solid;
+}
+
+.table__cell--header:hover {
+    color: white;
+    background-color: #333333;
+    transition: 0.3s;
+}
